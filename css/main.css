@@ -1,0 +1,500 @@
+/* Styling for the whole body */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    position: relative;
+}
+
+.black-overlay {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.black-overlay-darker {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.white-overlay {
+    background: rgba(255, 255, 255, 0.6);
+}
+
+/* Styling for the whole body */
+
+/* ------------------------------------------------------------------------------------ */
+
+/* Styling for the home page body */
+
+#home-body-style, #about-body-style, #terms-body-style, #contact-page-body-style {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#home-body-style {
+    background-image: url("./../images/home-body-BG.jpg");
+}
+
+#about-body-style {
+    background-image: url("./../images/about-body-BG.jpg");
+}
+
+#terms-body-style {
+    background-image: url("./../images/terms-body-BG.jpg");
+}
+
+#contact-page-body-style {
+    background-image: url("./../images/contact-page-body-BG.jpg");
+}
+
+/* Styling for the home page body */
+
+/* ------------------------------------------------------------------------------------ */
+
+/* Navbar */
+
+.navbar {
+    font-family: 'Roboto Condensed', sans-serif;
+    -webkit-box-shadow: 0px 2.5px 2.5px 0px rgba(121,115,115,0.4);
+    -moz-box-shadow: 0px 2.5px 2.5px 0px rgba(121,115,115,0.4);
+    box-shadow: 0px 2.5px 2.5px 0px rgba(121,115,115,0.25);
+    background-color: #fff !important;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.navbar-collapse, .nav-link, .nav-item, .navbar, .img-responsive {
+  z-index: 10;
+}
+
+.navbar-toggler-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.logo {
+    width: 270px;
+    height: 80px;
+}
+
+.nav-link {
+    color: rgba(85, 85, 85, 0.8) !important;
+    text-shadow: 0.4px 0.4px 0.8px rgb(158, 158, 158, 0.8);
+    transition: color 0.2s;
+}
+
+.nav-link:hover {
+    color: #00b950 !important;
+}
+
+/* Navbar */
+
+/* ------------------------------------------------------------------------------------ */
+
+/* Intro */
+
+/* Intro heading & paragraph */
+
+.intro-container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.intro-div {
+    margin-top: 8em;
+    margin-bottom: 5em;
+    width: auto;
+    font-family: 'Noto Sans JP', sans-serif;
+    padding: 2.5em;
+}
+
+.intro-heading {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 1em;
+    line-height: 1.5em;
+}
+
+.intro-para {
+    color: white;
+    line-height: 2.5em;
+    text-align: justify;
+    font-size: 0.9em;
+}
+
+/* Intro heading & paragraph */
+
+/* Products */
+
+.intro-products-inner-container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.intro-products-group {
+    background-size: cover;
+    position: relative;
+    min-width: 160px;
+    min-height: 160px;
+    border-radius: 50%;
+    border: 5px solid white;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    transition: background 1.2s;
+}
+
+.intro-products-group:hover {
+    background: #00b950 url('./../images/intro-products/GreenBG.png');
+}
+
+.intro-products-group-one {
+    background: #00b950 url('./../images/intro-products/Vinyl.jpg') 15% 10%;
+}
+
+.intro-products-group-two {
+    background: #00b950 url('./../images/intro-products/Synthetic.jpg') -1% 17%;
+}
+
+.intro-products-group-three {
+    background: #00b950 url('./../images/intro-products/Athletic-epdm.jpg') 60% 20%;
+}
+
+.intro-products-group-four {
+    background: #00b950 url('./../images/intro-products/Wooden.jpg') 30% 90%;
+}
+
+.intro-products-group-five {
+    background: #00b950 url('./../images/intro-products/Artificial-turf.jpg') 30% 70%;
+}
+
+.intro-products-group-six {
+    background: #00b950 url('./../images/intro-products/PP-tiles.jpg') 30% 90%;
+}
+
+.intro-products-text {
+    position: absolute;
+    top: 37%;
+    width: 80%;
+    text-align: center;
+    font-size: 1em;
+    color: white;
+    line-height: 25px;
+    font-weight: 600;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.intro-products-text span {
+    vertical-align: middle;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+/* Products */
+
+/* Gallery */
+/* Gallery */
+
+/* Intro */
+
+/* ------------------------------------------------------------------------------------ */
+
+/* About */
+
+.about-container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* About heading & paragraphs */
+
+.about-div {
+    margin-top: 8em;
+    margin-bottom: 5em;
+    width: auto;
+    font-family: 'Noto Sans JP', sans-serif;
+    padding: 2.5em;
+}
+
+.about-heading {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 1em;
+    line-height: 1.5em;
+}
+
+.about-para {
+    color: white;
+    line-height: 2.5em;
+    text-align: justify;
+    font-size: 0.9em;
+}
+
+/* About heading & paragraphs */
+
+/* About text sections */
+
+.about-sections {
+    margin-bottom: 2.5rem;
+}
+
+.about-para-list {
+    padding-left: 1.5em;
+}
+
+.about-para-points {
+    font-size: 1em;
+}
+
+/* About text sections */
+
+/* About pics section */
+
+.about-img-div {
+    margin-top: 8em;
+    margin-bottom: 5em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 0 0 3.5em;
+}
+
+.about-img-group {
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+.about-img {
+    border: 5px solid white;
+}
+
+.about-img-group, .about-small-imgs-div {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.about-img-five, .about-img-six {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* About pics section */
+
+/* About clients */
+
+.about-clients-div {
+    width: auto;
+    font-family: 'Noto Sans JP', sans-serif;
+    padding: 2.5em;
+    background-color: white;
+}
+
+.about-clients-heading {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: #263C6B;
+    text-align: center;
+}
+
+.about-clients-container {
+    margin-top: 3em;
+}
+
+.clients-group {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.clients-img {
+    width: 10em;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/* About clients */
+
+/* About */
+
+/* ------------------------------------------------------------------------------------ */
+
+/* Terms & Conditions */
+
+.terms-container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.terms-div {
+    margin-top: 8em;
+    margin-bottom: 5em;
+    width: auto;
+    font-family: 'Noto Sans JP', sans-serif;
+    padding: 2.5em;
+}
+
+.terms-heading {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 1em;
+    line-height: 1.5em;
+}
+
+.terms-list {
+    padding: 1em;
+}
+
+.terms-list-points {
+    color: white;
+    font-size: 0.9em;
+    line-height: 2.5em;
+}
+
+.terms-unordered {
+    font-size: 1em;
+}
+
+/* Terms & Conditions */
+
+/* ------------------------------------------------------------------------------------ */
+
+/* Contact Page */
+
+.contact-page-container, .contact-page-div {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-page-div {
+    margin-top: 8em;
+    margin-bottom: 5em;
+    width: auto;
+    font-family: 'Noto Sans JP', sans-serif;
+    padding: 2.5em;
+    text-align: center;
+}
+
+.contact-page-heading {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 1em;
+    line-height: 1.5em;
+}
+
+.contact-page-para {
+    color: white;
+    line-height: 2.5em;
+    text-align: justify;
+    font-size: 0.9em;
+}
+
+.contact-page-enquire, .contact-page-enquire:hover {
+    color: #00b950;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+/* Contact Page */
+
+/* ------------------------------------------------------------------------------------ */
+
+/* Contact */
+
+.contact-div {
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 0px 0px 0px 0px;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    border-top: 7px solid white;
+}
+
+.contact-group {
+    margin-bottom: 1rem;
+}
+
+.contact-headers, .contact-details, .address {
+    color: white;
+    font-size: 12px;
+}
+
+.contact-headers {
+    font-size: 14px;
+    margin-bottom: 1.3em;
+    font-weight: bold;
+}
+
+.contact-details:hover, .address:hover {
+    text-decoration: none;
+    color: white;
+}
+
+/* Contact */
+
+/* ------------------------------------------------------------------------------------ */
+
+/* Privacy Statement */
+
+.privacy-div {
+    background-color: #00b950;
+    position: absolute;
+    bottom: 0px;
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: center;
+}
+
+.privacy-para {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    color: white;
+    font-size: 11px;
+}
+
+/* Privacy Statement */
+
+/* ------------------------------------------------------------------------------------ */
+
+/* Media queries */
+
+/* For small screens */
+
+@media screen and (max-width: 503px) {
+    .logo {
+        width: 210px;
+        height: 70px;
+    }
+
+    .intro-heading, .about-heading, .terms-heading, .contact-page-heading {
+        font-size: 1.9em;
+    }
+
+    .contact-div, .intro-para, .about-div, .about-para, .contact-page-para {
+        text-align: left;
+    }
+
+    .intro-products {
+        max-width: 220px;
+        max-height: 220px;
+    }
+
+    .intro-products-group {
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .about-div {
+        margin-bottom: 2.5em;
+    }
+    .about-img-div {
+        margin-top: 0.1em;
+        padding: 0.5em;
+    }
+}
